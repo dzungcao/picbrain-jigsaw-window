@@ -26,7 +26,7 @@ namespace JigsawApp
 
                 f.Controls.Add(geckoWebBrowser);
 
-                geckoWebBrowser.Navigate("http://local.picbrain.info/windowapp");
+                geckoWebBrowser.Navigate("http://picbrain.info/windowapp");
 
                 Application.Run(f);
             }
